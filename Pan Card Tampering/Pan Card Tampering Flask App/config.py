@@ -11,8 +11,8 @@ class Config(object):
     SECRET_KEY = 'pianalytix'
 
     DB_NAME = "production-db"
-    DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_USERNAME = "username"
+    DB_PASSWORD = "password"
 
     UPLOADS = "/home/username/app/app/static/uploads"
 
@@ -27,8 +27,8 @@ class DevelopmentConfig(Config):
     DEBUG = True
 
     DB_NAME = "production-db"
-    DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_USERNAME = "username"
+    DB_PASSWORD = "password"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
@@ -38,8 +38,8 @@ class TestingConfig(Config):
     DEBUG = True
 
     DB_NAME = "production-db"
-    DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_USERNAME = "username"
+    DB_PASSWORD = "password"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
